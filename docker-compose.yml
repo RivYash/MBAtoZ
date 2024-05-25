@@ -1,10 +1,12 @@
 version: '4'
+
 services:
   www:
-    image: php:7.4-apache
+    build: .
     volumes:
       - "./:/var/www/html" # sync project dir with container web root
+      - ./apache-config.conf:/etc/apache2/sites-available/000-default.conf # mount custom Apache config
     ports:
-      - "85:80"
+      - "80:80"
       - "443:443" # for SSL in future
-    restart: always # ensures the container restarts in case of failure
+    # restart: always # ensures the container restarts in case of failure
