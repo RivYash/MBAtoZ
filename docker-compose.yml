@@ -1,0 +1,10 @@
+version: '4'
+services:
+  www:
+    image: php:7.4-apache
+    volumes:
+      - "./:/var/www/html" # sync project dir with container web root
+    ports:
+      - "85:80"
+      - "443:443" # for SSL in future
+    restart: always # ensures the container restarts in case of failure
