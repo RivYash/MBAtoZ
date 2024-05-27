@@ -10,17 +10,17 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto active" href="../#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="../#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="../#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="../#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Calculate CS</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="#"><span>IIM's</span> <i class="bi bi-chevron-right"></i></a>
                 <ul class="dropdown-menu-scroll">
-                  <li><a href="#section2">IIM Ahmedabad</a></li>
-                  <li><a href="#section3">IIM Banglore</a></li>
+                  <li><a href="../iim/iim-ahmedabad.php">IIM Ahmedabad</a></li>
+                  <li><a href="../iim/iim-banglore.php">IIM Banglore</a></li>
                   <li><a href="#section3">IIM Culcutta</a></li>
                   <li><a href="#section3">IIM Indore</a></li>
                   <li><a href="#section3">IIM Lucknow</a></li>
