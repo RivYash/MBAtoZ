@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>MBATOZ - IIM Ahmedabad</title>
+  <title>MBATOZ - IIM Indore</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,14 +25,6 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: NewBiz
-  * Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -48,7 +40,7 @@
       <div class="container">
 
         <div style="text-align:center;">
-          <h2>IIM Ahmedabad CS Score</h2>
+          <h2>IIM Indore CS Score</h2>
           <!-- <ol>
             <li><a href="index.php">Home</a></li>
             <li>Inner Page</li>
@@ -79,7 +71,7 @@
                 </div>
                 <div class="formbold-input-flex">
                   <div>
-                      <label for="firstname" class="formbold-form-label"> PI</label>
+                      <label for="firstname" class="formbold-form-label"> Class 10 Score</label>
                       <input
                       type="number"
                       name=""
@@ -91,7 +83,7 @@
                 </div>
                 <div class="formbold-input-flex">
                   <div>
-                      <label for="firstname" class="formbold-form-label"> Work Ex</label>
+                      <label for="firstname" class="formbold-form-label"> PI Score</label>
                       <input
                       type="number"
                       name=""
@@ -201,7 +193,7 @@
           }
         
           .formbold-form-input {
-            width: 60%;
+            width: 30%;
             padding: 6px 22px;
             border-radius: 5px;
             border: 1px solid #DDE3EC;
@@ -225,7 +217,7 @@
             line-height: 24px;
             /* display: block; */
             margin-bottom: 10px;
-            min-width: 80px;
+            min-width: 50%;
           }
         
           .formbold-btn {

@@ -7,6 +7,6 @@ services:
       - "./:/var/www/html" # sync project dir with container web root
       - ./apache-config.conf:/etc/apache2/sites-available/000-default.conf # mount custom Apache config
     ports:
-      - "80:80"
+      - "85:80"
       - "443:443" # for SSL in future
     # restart: always # ensures the container restarts in case of failure

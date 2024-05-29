@@ -22,7 +22,7 @@
                   <li><a href="../iim/iim-ahmedabad.php">IIM Ahmedabad</a></li>
                   <li><a href="../iim/iim-banglore.php">IIM Banglore</a></li>
                   <li><a href="#section3">IIM Culcutta</a></li>
-                  <li><a href="#section3">IIM Indore</a></li>
+                  <li><a href="../iim/iim-indore.php">IIM Indore</a></li>
                   <li><a href="#section3">IIM Lucknow</a></li>
                   <li><a href="#section3">IIM Kozhikode</a></li>
                   <li><a href="#section3">IIM Shillong</a></li>
