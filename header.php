@@ -5,7 +5,7 @@
       <div class="logo">
         <!-- Uncomment below if you prefer to use an text logo -->
         <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-        <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid" style="max-height: 50px;"></a>
+        <a href="../index.php"><img src="../assets/img/logo.png" alt="" class="img-fluid" style="max-height: 50px;"></a>
       </div>
 
       <nav id="navbar" class="navbar">
