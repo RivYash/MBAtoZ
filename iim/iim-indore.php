@@ -128,7 +128,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         <table>
           <p style="margin: 0;color: #0d6efd;">CS Cutoff For Admission Offer</p>
             <tr>
-              <th>Category</th>
+              <th style="font-weight: bold;">Category</th>
               <th>General</th>
               <th>EWS</th>
               <th>NC-OBC</th>
@@ -152,7 +152,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         <table>
           <p style="margin: 0;color: #0d6efd;">Minimum CAT Percentile With Admission Offer</p>
             <tr>
-              <th>Category</th>
+              <th style="font-weight: bold;">Category</th>
               <th>General</th>
               <th>EWS</th>
               <th>NC-OBC</th>
@@ -176,7 +176,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         <table>
           <p style="margin: 0;color: #0d6efd;">Waitlist Movement</p>
             <tr>
-              <th>Category</th>
+              <th style="font-weight: bold;">Category</th>
               <th>General</th>
               <th>EWS</th>
               <th>NC-OBC</th>
@@ -248,11 +248,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                     th, td {
                       padding: 12px;
                       text-align: center;
+
                     }
 
                     th {
                       background-color: #1161d9;
                       color: #ffffff;
+                      font-weight: 100;
                     }
 
                     tr:nth-child(even) {
